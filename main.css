@@ -33,10 +33,15 @@ a {
   flex: 50%;
 }
 
+.column a {
+  color: #784cb1;
+  text-decoration: none;
+}
+
 .nav {
   align-items: center;
-  background-color: #FFF;
-  background: linear-gradient(to left, #17184a, #aabbc6);
+  background-color: #373859;
+  /*background: linear-gradient(to left, #17184a, #aabbc6);*/
   color: #FFF;
   display: flex;
   flex-direction: row;
@@ -61,8 +66,8 @@ a {
 
 .footer-nav {
   align-items: center;
-  background-color: #FFF;
-  background: linear-gradient(to left, #17184a, #aabbc6);
+  background-color: #373859;
+  /*background: linear-gradient(to left, #17184a, #aabbc6);*/
   color: #FFF;
   display: flex;
   height: 50px;
@@ -173,7 +178,8 @@ a {
 
 .announcements {
   align-items: center;
-  background: linear-gradient(to left, #17184a, #aabbc6);
+  background-color: #373859;
+  /*background: linear-gradient(to left, #17184a, #aabbc6);*/
   color: #FFF;
   display: flex;
   flex-direction: column;
